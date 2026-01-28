@@ -1,3 +1,3 @@
 a, b = input(), input()
 
-print(a, b, sep='***')
+print(a + b)
