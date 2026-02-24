@@ -1,0 +1,11 @@
+def squares(n: int):
+    i = 1
+
+    while i <= n:
+        yield i ** 2
+        i += 1
+
+n = int(input())
+
+for square in squares(n):
+    print(square)
